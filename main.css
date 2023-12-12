@@ -1,0 +1,28 @@
+html {
+    height: 100vh;
+    color: white;
+    background-color: #222222;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    width: 400px;
+    background-color: #1d2b2e;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuButton {
+    width: 30px;
+    height: 30px;
+}
+.menuButton svg {
+    width: 100%;
+    height: 100%;
+}
